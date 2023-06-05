@@ -1,0 +1,30 @@
+Analysis:
+- Overview of the analysis: Explain the purpose of this analysis.
+The purpose of creating this analysis is to help 'Alphabet Soup' company predict the applicants' chance for
+funding with the best chance of success in their ventures.
+
+Results: Using bulleted lists and images to support your answers, address the following questions:
+
+Data Preprocessing
+
+- What variable(s) are the target(s) for your model?
+The model 'target variable' is going to be 'IS_SUCCESSFUL', which determines if the money was used effectively by the organization 
+
+- What variable(s) are the features for your model?
+The features are going to various features such as:
+'USE_CASE', 'ORGANIZATION', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT
+
+-What variable(s) should be removed from the input data because they are neither targets nor features?
+Variables such as 'APPLICATION_TYPE' and 'CLASSIFICATION" can be dropped as they are neither features 
+nor targets that we needed to complete the analysis.
+
+Compiling, Training, and Evaluating the Model
+
+-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+For this neural network I chose to have two hidden layers (layer 1 & 2), with 2,381 nodes,
+with activation function ReLU.
+
+-Were you able to achieve the target model performance?
+No, I wasn't able to achieve the target model performance with the accuracy of 71.51%
+
+
